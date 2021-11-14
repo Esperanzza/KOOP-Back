@@ -43,4 +43,8 @@ const eliminarVehiculo = async (id, callback) => {
   await baseDeDatos.collection('vehiculo').deleteOne(filtroVehiculo, callback);
 };
 
+<<<<<<< HEAD
 export { queryAllVehicles, crearVehiculo, consultarVehiculo, editarVehiculo, eliminarVehiculo };
+=======
+export { queryAllVehicles, crearVehiculo, consultarVehiculo, editarVehiculo, eliminarVehiculo };
+>>>>>>> a15a25437eb4b7065e169b8dbe26ab24cf150115

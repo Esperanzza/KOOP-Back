@@ -40,4 +40,8 @@ rutasVehiculo.route('/vehiculos/:id').delete((req, res) => {
   eliminarVehiculo(req.params.id, genercCallback(res));
 });
 
+<<<<<<< HEAD
 export default rutasVehiculo;
+=======
+export default rutasVehiculo;
+>>>>>>> a15a25437eb4b7065e169b8dbe26ab24cf150115

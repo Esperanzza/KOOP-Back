@@ -46,4 +46,8 @@ rutasUsuario.route('/usuarios/:id').delete((req, res) => {
   eliminarUsuario(req.params.id, genercCallback(res));
 });
 
+<<<<<<< HEAD
 export default rutasUsuario;
+=======
+export default rutasUsuario;
+>>>>>>> a15a25437eb4b7065e169b8dbe26ab24cf150115

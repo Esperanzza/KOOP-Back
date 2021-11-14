@@ -67,4 +67,8 @@ export {
   editarUsuario,
   eliminarUsuario,
   consultarOCrearUsuario,
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> a15a25437eb4b7065e169b8dbe26ab24cf150115
