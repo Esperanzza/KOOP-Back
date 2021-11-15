@@ -29,10 +29,10 @@ var jwtCheck = jwt({
     cache: true,
     rateLimit: true,
     jwksRequestsPerMinute: 5,
-    jwksUri: 'https://koopteam.us.auth0.com/api/v2/.well-known/jwks.json',
+    jwksUri: 'https://koopteam.us.auth0.com/.well-known/jwks.json',
   }),
   audience: 'api-auteticacion-koop',
-  issuer: 'https://koopteam.us.auth0.com/api/v2/',
+  issuer: 'https://koopteam.us.auth0.com/',
   algorithms: ['RS256'],
 });
 
