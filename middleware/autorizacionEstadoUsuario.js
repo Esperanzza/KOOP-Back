@@ -29,8 +29,4 @@ const autorizacionEstadoUsuario = async (req, res, next) => {
   });
 };
 
-<<<<<<< HEAD
 export default autorizacionEstadoUsuario;
-=======
-export default autorizacionEstadoUsuario;
->>>>>>> a15a25437eb4b7065e169b8dbe26ab24cf150115
